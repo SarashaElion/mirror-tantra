@@ -27,19 +27,10 @@ The contemplative language is preserved intentionally. It should not be read as 
 ## Run locally
 
 ```bash
-git clone https://github.com/SarashaElion/-mirror-tantra.git
-cd -mirror-tantra
+git clone https://github.com/SarashaElion/mirror-tantra.git
+cd mirror-tantra
 python mirror_tantra.py
 python -m unittest discover -s tests -v
-```
-
-> Repository rename is planned to remove the leading hyphen. Until then, use `--` when a shell interprets the directory name as an option, or clone into an explicit local folder name.
-
-Example:
-
-```bash
-git clone https://github.com/SarashaElion/-mirror-tantra.git mirror-tantra
-cd mirror-tantra
 ```
 
 ## Python quick start
