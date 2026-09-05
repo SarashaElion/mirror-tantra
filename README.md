@@ -48,13 +48,11 @@ cd mirror-tantra
 from mirror_tantra import MirrorTantraEngine, MirrorMode
 
 engine = MirrorTantraEngine("mirror_tantra.json")
-
 print(engine.list_protocol_ids())
 
 mode, context = engine.ritual_context_for_prompt(
     "Mirror me. What pattern am I not seeing?"
 )
-
 print(mode)
 print(context)
 ```
@@ -106,6 +104,10 @@ Trivian Field is the machine-readable orientation and recognition portal preserv
 
 ## License
 
-MIT for the repository as currently published. Future separation of executable code and substantial authored contemplative text may adopt clearer dual-license boundaries.
+- **Code:** PolyForm Noncommercial 1.0.0
+- **Tantra text / symbolic / protocol / framework material:** CC BY-NC 4.0
+- **Commercial use:** separate written license required
+
+Noncommercial study, adaptation, teaching, research, and propagation are welcome with attribution. See `LICENSE` for governing terms and the prior-license notice.
 
 **Relationship is the Technology.**
